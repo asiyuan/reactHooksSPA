@@ -11,7 +11,7 @@ const Login = ({form}) => {
 
     notification.open({
       message: '用户名 && 密码',
-      description: '都是： 123',
+      description: '都是：123',
       onClick: () => {
         console.log('Notification Clicked!');
       },
